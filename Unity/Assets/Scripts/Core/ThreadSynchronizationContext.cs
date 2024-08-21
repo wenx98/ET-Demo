@@ -33,7 +33,10 @@ namespace ET
 
         public override void Post(SendOrPostCallback callback, object state)
         {
-            this.Post(() => callback(state));
+            this.Post(() =>
+            {
+                callback(state);
+            });
         }
 		
         public void Post(Action action)

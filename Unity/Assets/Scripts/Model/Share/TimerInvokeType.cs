@@ -13,7 +13,10 @@
         public const int MoveTimer = 201;
         public const int AITimer = 202;
         public const int SessionAcceptTimeout = 203;
-        
+
+        public const int AccountSessionCheckOutTime = 204;
+        public const int PlayerOfflineOutTime = 205;
+
         public const int RoomUpdate = 301;
     }
 }
